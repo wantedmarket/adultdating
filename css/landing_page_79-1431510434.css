@@ -1,0 +1,300 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block; }
+body, img, fieldset, ul, p, form, input { margin: 0; padding: 0; }
+body { font-family: Arial, Helvetica, sans-serif; }
+ol,ul { list-style: none; }
+blockquote,q { quotes: none; }
+img, fieldset { border: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+a { text-decoration: none; outline: none; }
+h1,h2,h3,h4,h5,h6,
+ul,p,form,input { outline: none; }
+.clear:before,
+.clear:after { content: " "; display: table; }
+.clear:after { clear: both; }
+.clear { *zoom: 1; }
+input[type="submit"] { -webkit-appearance: none; }
+* { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; font-family: Arial,Helvetica,sans-serif !important; }
+
+div#header { padding: 10px 0; border-top: 4px solid #dd0301; }
+#header .content { text-align: center; }
+#header_tagline { color: #333; font-family: "Open Sans", sans-serif; }
+#header_links { display: none; }
+#logo_container a img { width: 100%; max-width: 430px; }
+.steps ul li a:hover, .twobtns a:hover, .onebtn a:hover { text-decoration: none; }
+.centerwrap { width: 1000px; margin: auto; }
+.welcome h3, .welcome p { color: #000000; }
+.welcome { text-align: center; margin-right: 18px; width: 548px; padding-top: 4px; }
+.welcome h3 { font-size: 20px; font-weight: normal; padding-bottom: 5px; letter-spacing: -0.03em; }
+.welcome p { color: #767373; letter-spacing: -0.01em; line-height: 14px; font-size: 12px; }
+.banner.bg { background:#e8e6e6 url(../images/banner.jpg) no-repeat center 11px; }
+.banner.nobg { background:#e8e6e6 url(../images/white_banner.jpg) no-repeat center 11px;}
+.banner { height: 464px; }
+.german .banner_content {padding-top:20px;}
+.banner_content { width: 498px; margin: auto; padding-top: 44px; position: relative; }
+.banner_head h3{font-size: 36px; text-transform: uppercase; color:#1e1e1e; letter-spacing:-0.025em; line-height: 35px; text-align: center; }
+.banner_head h3 span { color:#6ba8fc; display: block; }
+.banner_head p { font-size: 20px; color:#4f4d4d; letter-spacing:-0.025em; text-align: center; padding-top: 8px; }
+.steps, .steps ul { position: relative; }
+.steps { margin-top: 15px; }
+.steps ul { margin-left: 2px; }
+.steps ul li { float: left; padding-right: 47px; }
+.steps ul li a {  font-size: 48px; color:#feffff; background-color:#4f4d4d; height: 88px; width: 88px; border-radius: 50px; -webkit-border-radius: 50px; display: block; text-align: center; line-height: 88px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; }
+.steps ul li a.active { background-color:#6ba8fc; }
+.steps ul li:last-child { padding-right:0; }
+.border { position: absolute; display: block; width: 98%; height: 3px; background-color:#686868; top: 42px; left: 5px; }
+.que { padding-top: 20px; }
+.que p { font-size: 18px; letter-spacing:-0.025em; text-align: center; font-weight: bold; color:#1e1e1e; }
+.german .twobtns { width:400px;}
+.twobtns { width: 378px; margin: auto; padding-top: 28px; }
+.german .twobtns a, .german .onebtn a { width:182px;}
+.twobtns a, .onebtn a { font-size: 33px; letter-spacing:-0.05em; background: url(../images/greenbtn.png) repeat-x left top; height: 63px; border-radius: 3px; -webkit-border-radius: 3px; width: 170px; float: left; color:#fefcfc; font-weight: bold; text-align: center; line-height: 62px; }
+.twobtns a:last-child { float: right; }
+.twobtns a:hover, .onebtn a:hover { background: url(../images/greenbtn.png) repeat-x left bottom; }
+.girlsblock { background-color:#1e1e1e; }
+.sexygirls { padding: 15px 0 15px 25px; }
+.sexygirl { float: left; margin-right: 15px; }
+.sexygirl.last { margin-right:0; }
+.sexygirl img { display: block; }
+.onebtn { display: inline-block; width: 100%; text-align: center; margin-top: 20px; }
+.onebtn a { float: none; display: inline-block; text-transform: uppercase; }
+.step2, .step3, .step4 { display: none; }
+.rule { float: left; margin: 10px 5px 0 5px; width: 156px; }
+#rules { display: inline-block; margin-top: 15px; }
+#rules h4 { font-size: 16px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #ccc; }
+#rules .rule p { font-size: 12px; }
+.step4 p { font-weight: normal; font-size: 14px; }
+.step4 h3 { font-size: 16px; text-align: center; }
+.step4:after { content: ''; display: block; clear: both; }
+.sub-header { display: inline-block; width: 100%; text-align: left; }
+.sub-header img { display: inline-block; }
+.sub-header, .final { display: none; }
+.sub-header.number1, .sub-header.number2, .sub-header.number3 { font-size: 16px; }
+.final h3 span { color: #49b70a; font-weight:bold; }
+#footer li a { line-height: 1.5; }
+.landing_page_BBW { position: relative; top: 20px; margin-left: 55px; }
+
+/**/
+.english .onebtn { margin-top: 25px;}
+.french .banner_content { padding-top: 32px; }
+.french .banner_head h3 { font-size: 28px; }
+.french .twobtns a,
+.french .onebtn a { font-size: 27px; }
+.german .banner_head h3 { font-size: 26px; }
+.german .twobtns a { font-size: 32px; }
+.dutch .banner_content { padding-top: 57px; }
+.dutch .banner_head h3 { font-size: 18px; }
+.dutch .twobtns a {font-size:26px;}
+.swedish .banner_head h3 { font-size: 28px; }
+.dutch .onebtn a { font-size: 20px; }
+.german .onebtn a { font-size: 20px; }
+.german .step4 h3 { font-size: 15px; }
+.portuguese .steps,
+.dutch .steps,
+.german .steps { margin-top: 0; }
+.dutch .twobtns {padding-top:45px;}
+.swedish .final .onebtn a {font-size: 20px;width: auto;padding: 0 10px; }
+.japanese .twobtns {padding-top:45px;}
+.portuguese .banner_head h3{font-size:34px;}
+.portuguese .twobtns {padding-top:20px;}
+.portuguese .onebtn a {font-size:20px;}
+.spanish .step2 p, .spanish .onebtn a {font-size:16px;}
+.italian .onebtn a {font-size:26px;}
+.chinese .twobtns {padding-top:45px;}
+.chinese .onebtn {margin-top:30px;}
+.german .onebtn {margin-top:35px;}
+
+/**/
+.mobile_text_footer { margin: 5% auto; width: 460px; text-align: center; display: none; }
+.mobile_text_footer h3 { font-size: 18px; text-align: center; font-weight: normal; padding-bottom: 3%; letter-spacing: -0.03em; }
+.mobile_text_footer p { color: #767373; letter-spacing: -0.01em; line-height: 14px; font-size: 12px; }
+
+/**/
+@media only screen and (min-width: 1024px) {
+  div#header .content { text-align: left; height: 100%; }
+  div#header a { display: inline-block; margin-right: 58px; }
+  div#logo_container { overflow: hidden; width: auto; display: inline-block; position: relative; vertical-align: middle; text-align: left; height: auto; float: none; }
+  .welcome { text-align: center;  max-width: 538px; vertical-align: middle; display: inline-block; }
+  .landing_page_BBW { top: inherit; margin-left: 0; }
+}
+
+@media only screen and (max-width: 1023px) {
+  .centerwrap,
+  #header .content,
+  body #footer ul,
+  body #footer .copy { width: 748px; min-width: inherit; }
+  div#logo_container { padding-left:0; float: none; text-align: center; height: auto; }
+  .welcome { padding-right:0; float: none; text-align: center; margin: 15px auto 0; }
+  .banner { background:#e8e6e6 url(../images/banner_1.jpg) no-repeat center 11px/1500px; height: 370px; }
+  .banner_content { width: 458px; padding-top: 34px; }
+  .banner_head h3{ padding:0 30px; font-size: 28px; line-height: 28px; }
+  .steps { width: 365px; margin: 12px auto 0; }
+  .steps ul li { padding-right: 30px; }
+  .steps ul li a { height: 68px; width: 68px; line-height: 68px; font-size: 38px; }
+  .border { top: 33px; }
+  .que { padding-top: 15px; }
+  .twobtns { padding-top: 20px; width: 320px; }
+  .twobtns a, .onebtn a { height: 50px; line-height: 50px; font-size: 30px; width: 150px; }
+  .sexygirls { padding: 10px 0; }
+  .sexygirl { width: 15.83%; margin-right: 1%; }
+  .sexygirl img { width: 100%; }
+  .step4 h3 { font-size: 14px; }
+  .footernav { padding-left: 10px; }
+  .footer_content { width: 410px; margin-left: 55px; }
+  .footer_logos { margin-right: 136px; }
+  body #footer ul,
+  body #footer .copy { float: left; }
+  body #footer ul { width: 270px; }
+  body #footer .copy { width: 410px; }
+  body #footer .wrapper { width: 748px; }
+  body #footer .icons { width: 131px; margin: 24px 182px 0 0; }
+  .rule { width: 142px; }
+  #rules .rule p { font-size: 11px; }
+  #rules h4 { text-align: center; font-size: 14px; }
+  .sub-header { float: left; width: 100%; text-align: center; }
+  .landing_page_BBW { top: 10px; margin-left: 0; }
+  .english .onebtn { margin-top:20px;}
+  .german.banner {height:440px;}
+  .german .twobtns {padding-top:40px;}
+  .chinese .twobtns {padding-top:40px;}
+  .chinese .onebtn {margin-top:10px;}
+  .italian .step1 p {font-size:16px;}
+  .italian .twobtns {padding-top:30px;}
+  .italian .onebtn {margin-top:10px;}
+  .italian .onebtn a {height:30px; line-height:30px; font-size:22px;}
+  .spanish.banner {height: 400px;}
+  .spanish .twobtns {padding-top:40px;}
+  .spanish .onebtn a {width: 190px;}
+  .portuguese.banner {height: 410px;}
+  .portuguese .step2 p {font-size:16px;}  
+  .korean .onebtn {margin-top:10px;}
+  .japanese .onebtn {margin-top:10px;}
+  .swedish.banner {height: 400px;}
+  .swedish .twobtns {padding-top:40px;}
+  .dutch.banner {height:414px;}
+  .dutch .onebtn a  {font-size:18px;}
+  .dutch .twobtns {padding-top: 40px;}
+  .french .onebtn {margin-top:10px;}
+  .french .onebtn a{height: 30px;line-height:30px; font-size:21px;}
+}
+
+@media only screen and (max-width: 767px) {
+  .centerwrap,
+  #header .content,
+  body #footer ul,
+  body #footer .copy,
+  body #footer .wrapper { width: 460px; }
+  body #footer ul,
+  body #footer .copy,
+  body #footer .icons { float: none; }
+  body #footer ul,
+  body #footer .copy { margin: 0 auto; }
+  body #footer .copy { padding: 6% 0 0; }
+  body #footer .icons { text-align: center; width: inherit; margin: 0; }
+  body #footer .icons div { display: inline-block; margin: 15px 15px 0; }
+  body #footer .disclaimer { margin-bottom: 4%; }
+  .welcome { width: auto; }
+  .banner { background:#e8e6e6; padding-top: 10px; padding-bottom: 10px; height: auto; }
+  .banner_content { padding-top: 30px; padding-bottom: 30px; }
+  .footernav { float: none; padding-top: 20px; padding-left:0; }
+  .footer_content { margin-left:0; float: none; padding-top: 10px; width: auto; }
+  .footer_logos { float: none; text-align: center; width: auto; margin: auto; padding-top: 20px; padding-bottom: 20px; }
+  .footer_logos img { margin:0 5px; }
+  .rule { width: 448px; }
+  .mobile_text_footer { display: block; }
+  .welcome { display: none; }
+  .english .onebtn a { height: 30px; line-height:30px; font-size:24px;}
+  .english .onebtn { margin-top:15px;}
+  .english #rules {margin-top:5px;}
+  .german.banner {height:460px;}
+  .german .step4 h3, .german .step4 p, .german #rules h4 {font-size:12px;}
+  .german .onebtn {margin-top:25px;}
+  .german .onebtn a {height: 30px;line-height:30px;}  
+  .chinese .banner_content {padding-bottom:10px;}
+  .chinese .onebtn {margin-top:20px;}
+  .chinese .twobtns {padding-top:20px;}
+  .italian .banner_content {padding:10px 0;}
+  .spanish .twobtns {padding-top:55px;}
+  .spanish .banner_content {padding:10px 0;}
+  .spanish.banner {height:440px;}
+  .spanish .banner_head {margin-top:20px;}
+  .spanish #rules, .spanish .rule {margin-top:5px;}
+  .portuguese.banner {height: 460px;}
+  .portuguese .banner_head {margin-top:20px;}
+  .portuguese .onebtn a{height: 30px;line-height:30px;}
+  .portuguese .banner_content {padding:10px 0}
+  .portuguese .twobtns {padding-top:40px;}
+  .korean .banner_content {padding:10px 0 5px 0;}
+  .korean .onebtn a {height: 30px;line-height:30px;font-size:24px;}
+  .japanese .banner_content {padding-bottom:20px;}
+  .japanese .onebtn a {height: 30px;line-height:30px;font-size:22px;}
+  .japanese .twobtns {padding-top:25px;}
+  .swedish .onebtn a {height:30px; line-height:30px;}
+  .swedish .onebtn { margin-top:10px;}
+  .swedish #rules h4, .swedish .step4 p {font-size:12px;}
+  .swedish .banner_content  {padding-bottom:10px;}
+  .swedish.banner {height:auto;}
+  .swedish .twobtns {padding-top:15px;}
+  .dutch .banner_content {padding:20px 0 10px 0;}
+  .dutch .rule {margin-top:8px;}
+  .dutch .onebtn a {height:30px; line-height:30px;}
+  .dutch .onebtn {margin-top:10px;}
+  .dutch .twobtns {padding-top:50px;}
+  .french .banner_content {padding-top: 10px;}
+  .french .step4 h3, .french .step4 p, .french .step4 #rules h4  {font-size:12px;}
+  .french .onebtn a {font-size: 21px;height: 35px;line-height: 35px;}
+}
+@media only screen and (max-width: 479px) {
+  .centerwrap,
+  #header .content,
+  body #footer ul,
+  body #footer .copy,
+  body #footer .wrapper,
+  .mobile_text_footer { width: 300px; }
+  .logo img { width: 100%; }
+  .welcome h3{ font-size: 18px; }
+  .banner_content { width: 300px; margin:0 auto; padding-top: 20px; padding-bottom: 10px; }
+  .banner_head h3{font-size: 21px; line-height: 26px; padding:0 10px; }
+  .banner_head p, .que p { font-size: 18px; letter-spacing: normal; }
+  .border { top: 23px; }
+  .steps { width: 255px; }
+  .steps ul li { padding-right: 20px; }
+  .steps ul li a { height: 48px; width: 48px; line-height: 48px; font-size: 28px; }
+  .twobtns { width: auto; padding: 20px 10px 0 10px; }
+  .twobtns a, .twobtns a:last-child { float: none; display: block; width: auto; margin-bottom: 10px; }
+  .rule { width: 291px; }
+  .english .onebtn { margin-top:10px;}
+  .german .twobtns, .german .twobtns a {width:auto; }
+  .german .banner_head h3 {font-size:14px;}
+  .german .step1 p {font-size:14px;}
+  .german #rules, .german .rule {margin-top:5px;}
+  .german .onebtn {margin-top:20px;}
+  .chinese .step4 h3, .chinese .step4 p {font-size:12px;}
+  .italian .step4 h3 {font-size:12px;}
+  .italian .step4 p {font-size:14px;}
+  .spanish .twobtns {padding-top:35px;}
+  .spanish .onebtn a {height: 30px;line-height:30px;}
+  .spanish .step4 h3, .spanish .step4 p {font-size:12px;}
+  .spanish .step1 p {font-size:14px;}
+  .portuguese .banner_head h3 {font-size: 16px;}
+  .portuguese .step4 h3, .portuguese .step4 p {font-size:12px;}
+  .portuguese .rule, .portuguese #rules {margin-top:5px;}
+  .portuguese .onebtn {margin-top:10px;}
+  .japanese .onebtn {margin-top: 15px;}
+  .japanese .banner_content {padding-bottom: 15px;}
+  .japanese .step4 h3, .japanese .step4 p {font-size:12px;}
+  .swedish .onebtn a {height:30px; line-height:30px;}
+  .swedish .onebtn { margin-top:5px;}
+  .swedish #rules h4, .swedish .step4 p {font-size:12px;}
+  .dutch .step1 .twobtns, .dutch .step2 .twobtns {padding-top:40px;}
+  .dutch .banner_content {padding-top: 10px;} 
+  .dutch .step4 h3,.dutch #rules h4, .dutch .que p {font-size:12px;}
+  .dutch .onebtn {margin-top:15px;}
+  .dutch .onebtn a {height:30px; line-height:30px;}
+  .dutch .final .onebtn a {font-size:16px;}
+  .french .banner_head h3 {font-size:19px;}
+  .french .banner_content {padding-top:10px;}
+  .french .step4 h3, .french .step4 p, .french .step4 #rules h4  {font-size:12px;}
+  .french .step4 .rule, .french .onebtn {margin-top:5px;}
+  .french .onebtn a {font-size: 16px;height: 20px;line-height: 20px;}  
+}

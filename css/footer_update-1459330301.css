@@ -1,0 +1,54 @@
+#footer { background:#999999; padding:16px 0 48px 0; min-width:1056px; color:#ffffff; }
+#footer a{ color:#ffffff; text-decoration: none;}
+#footer a:hover { text-decoration: underline; }
+#footer .content { margin:0 auto; padding:0; border:none; }
+#footer .footer-m { margin:0; }
+#footer .footer-m .content { float:left; margin:0; padding:0; width:82%; overflow:hidden; }
+#footer .footer-l { float:left; width:30%; margin-bottom:28px; }
+#footer .footer-l ul { margin:0; padding-left:0px; overflow:hidden; }
+#footer .footer-l li { list-style-type:none; margin:0; padding-bottom:4px; font-size: 12px; }
+#footer .footer-l li.mt { margin-top:11px; }
+#footer .footer-middle { float:right; width:60%; }
+#footer .footer-r { float:right; display:block; width:16%; text-align:center; position:relative; top:0; padding:10px 0; }
+#footer .godaddy { margin:10px 0; }
+#footer_top, #footer_bottom { display:none; }
+#footer .full_width {  width: 960px; }
+#footer_other_sites { clear: both; text-align: left; font-size: 12px; line-height: 20px;}
+#footer_other_sites a { font-size: 12px; }
+#footer .guest .languages { float: none; }
+#footer .guest .icons { float: left; }
+#footer .guest .copy, #footer .guest .footer_links { float: right; }
+
+#footer ul.languages ul a {
+    color: #000;
+}
+
+.disclaimer, .safetylaw, #footer .safetylaw a{ color: #FFFFFF;  font-size: 12px; }
+.disclaimer {margin-bottom:10px;}
+.safetylaw  {margin-top:10px;}
+
+
+.neticongroup { display:inline; margin-right:20px; font-size:12px; }
+.neticongroup a{text-decoration: none; }
+.neticon { vertical-align:middle; margin-left:4px; }
+.share_story { margin:10px 0; font-size:12px; }
+#textsecsion { font-size: 10px; color:#cccccc; width:380px; line-height:normal; margin-top:20px;}
+#textsecsion a { color:#cccccc; }
+.admininfo { font-size:10px; color:#ff0000; }
+
+.sec-error-msg {
+    position: relative;
+    top: -17px;
+    color: #b94a48;
+    background-color: #f2dede;
+    padding: 3px 0;
+}
+
+#footer .sec-error-msg a {
+    color: #1d62d3;
+}
+
+#footer .call_us {
+    font-size: 16px;
+    color:red;
+}
